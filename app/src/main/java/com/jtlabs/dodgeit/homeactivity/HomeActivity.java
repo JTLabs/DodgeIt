@@ -8,7 +8,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.jtlabs.dodgeit.R;
-import com.jtlabs.dodgeit.actions.events.EventAction;
 import com.jtlabs.dodgeit.actions.events.GameStartEventAction;
 import com.jtlabs.dodgeit.actions.workers.GestureWorker;
 import com.jtlabs.dodgeit.actions.workers.SingleTapWorker;
@@ -17,8 +16,7 @@ import com.jtlabs.dodgeit.display.animators.TextAnimatorImpl;
 import com.jtlabs.dodgeit.gameactivity.containers.GameActivityStartRequest;
 
 /**
- * An example full-screen activity that shows and hides the system UI (i.e.
- * status bar and navigation/system bar) with user interaction.
+ * Launch Activity.
  */
 public class HomeActivity extends AppCompatActivity {
 
